@@ -1,5 +1,6 @@
 /**
  * @author Pietro Chirio, Ludovico Russo, Hotblack Robotics
+ * */
 
 var KEYBOARD_ROBOTARM = KEYBOARD_ROBOTARM || {
   REVISION : '0.4.0-SNAPSHOT'
@@ -71,7 +72,7 @@ KEYBOARD_ROBOTARM.Robotarm = function(options) {
         break;
       case 83:
         y = -1 * speed;
-        console.log("giù_2")
+        console.log("giï¿½_2")
         break;
       case 73:
         z = 1 * speed;
@@ -79,7 +80,7 @@ KEYBOARD_ROBOTARM.Robotarm = function(options) {
         break;
       case 75:
         z = -1 * speed;
-        console.log("giù_3")
+        console.log("giï¿½_3")
         break;
       default:
         pub = false;
